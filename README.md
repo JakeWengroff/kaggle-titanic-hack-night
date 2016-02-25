@@ -14,3 +14,7 @@ To get started, you'll need to:
 5. Run the code using: `node index.js`.
 6. Get the CSV file stored in `data/results.csv` and upload it to
    kaggle.
+
+
+This repo is my team's submission for this Hack Night -- which we lost. 
+But it still served as a great introduction to Machine Learning.

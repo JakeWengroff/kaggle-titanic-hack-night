@@ -3,6 +3,7 @@ var csvParse = require('csv-parse'),
     async = require('async'),
     ML = require('./ml.js');
 
+
 var trainData, testData;
 
 async.waterfall([
@@ -38,7 +39,7 @@ async.waterfall([
     testData = data;
 
     console.log('Training algorithm...');
-    ML.train(trainData, callback);
+    ML.train(trainData, testData, callback);
   },
 
   // Step 4: use your new prediction function on the test data
